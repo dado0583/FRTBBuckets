@@ -1,0 +1,77 @@
+{
+  "name": "Value#2457443",
+  "date": 20170510,
+  "closeRegion": "TOR",
+  "curveType": "EOD",
+  "at": "2017-05-10T21:00:00.000Z",
+  "asOf": "2017-05-30T19:49:14.029Z",
+  "tradeAt": "2017-05-10T21:00:00.000Z",
+  "tradeAsOf": "2017-05-30T19:49:14.029Z",
+  "mktDataAt": "2017-05-10T21:00:00.000Z",
+  "mktDataAsOf": "2017-05-30T19:49:14.029Z",
+  "pricingEnv": "OFFICIAL_CLOSE_MMB_MS",
+  "engineType": "UQL",
+  "engineVersion": "1.60.2-4",
+  "valuation": {
+    "id": "Aggregate",
+    "metricValues": [
+      {
+        "metric": "VOLATILITY",
+        "results": [
+          {
+            "discriminator": "CAD",
+            "currency": "CAD",
+            "value": 2.0633673482216563
+          },
+          {
+            "discriminator": "USD",
+            "currency": "USD",
+            "value": 0.017647147178649902
+          }
+        ]
+      },
+      {
+        "metric": "BUCKETED_VEGA",
+        "results": [
+          {
+            "discriminator": "ORSD_EOD_TOR.TOR.CAD.CDOR.DAILY.SWAPTION.NORMAL",
+            "currency": "CAD",
+            "vegaBuckets": [
+
+              {
+                "strike": 0.0075,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": 1000,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": 1000,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": 1000,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "calculationNanos": 251919239006
+  },
+  "complete": true,
+  "success": true,
+  "totalTrades": 2639,
+  "valuedTrades": 2639,
+  "calculationNanos": 251919239006
+}

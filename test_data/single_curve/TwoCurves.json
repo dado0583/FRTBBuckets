@@ -1,0 +1,405 @@
+{
+    "name": "Value#1155363",
+    "date": 20170510,
+    "closeRegion": "TOR",
+    "curveType": "EOD",
+    "at": "2017-05-10T21:00:00.000Z",
+    "asOf": "2017-05-24T14:18:35.057Z",
+    "tradeAt": "2017-05-10T21:00:00.000Z",
+    "tradeAsOf": "2017-05-24T14:18:35.057Z",
+    "mktDataAt": "2017-05-10T21:00:00.000Z",
+    "mktDataAsOf": "2017-05-24T14:18:35.057Z",
+    "pricingEnv": "OFFICIAL_CLOSE_MMB_MS",
+    "engineType": "UQL",
+    "engineVersion": "1.60.2-4",
+    "valuation": {
+        "id": "Aggregate",
+        "metricValues": [
+            {
+                "metric": "POLICY_DELTA",
+                "results": [
+                    {
+                        "discriminator": "YC-ORSD_EOD_TOR-AUD-BBSW-1M",
+                        "currency": "AUD",
+                        "bucketsTotal": 0,
+                        "buckets": [
+                            {
+                                "name": "Deposit-1M",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": true,
+                                "term": "45",
+                                "includeInBasis": true,
+                                "invertForBasis": true,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "Deposit-1M",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": true,
+                                "term": "135",
+                                "includeInBasis": true,
+                                "invertForBasis": true,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-1Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "366",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-2Y",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "730",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-3Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1100",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-4Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1463",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-5Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1827",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-6Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2192",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-7Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2560",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-8Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2924",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-9Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "3290",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-10Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "3654",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-12Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "4384",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-15Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "5481",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-20Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "7308",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-25Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "9133",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-30Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "10960",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-40Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "14611",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            }
+                        ]
+                    },
+                    {
+                        "discriminator": "YC-ORSD_EOD_TOR-AUD-BBSW-3M",
+                        "currency": "AUD",
+                        "bucketsTotal": 0,
+                        "buckets": [
+                            {
+                                "name": "Deposit-1M",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": true,
+                                "term": "45",
+                                "includeInBasis": true,
+                                "invertForBasis": true,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "Deposit-1M",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": true,
+                                "term": "135",
+                                "includeInBasis": true,
+                                "invertForBasis": true,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-1Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "366",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-2Y",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "730",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-3Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1100",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-4Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1463",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-5Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "1827",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-6Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2192",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-7Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2560",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-8Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "2924",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-9Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "3290",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-10Y",
+                                "value": 100,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "3654",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-12Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "4384",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-15Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "5481",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-20Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "7308",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-25Y",
+                                "value": 1000,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "9133",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-30Y",
+                                "value": 0,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "10960",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            },
+                            {
+                                "name": "BasisSwap-40Y",
+                                "value": 10000,
+                                "deltaType": "MMB",
+                                "includeInOutright": false,
+                                "term": "14611",
+                                "includeInBasis": true,
+                                "invertForBasis": false,
+                                "basisType": "1v3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "calculationNanos": 24339154331
+    },
+    "complete": true,
+    "success": true,
+    "totalTrades": 1931,
+    "valuedTrades": 1931,
+    "calculationNanos": 24339154331
+}

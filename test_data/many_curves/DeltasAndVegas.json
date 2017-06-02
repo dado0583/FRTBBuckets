@@ -1,0 +1,2547 @@
+{
+  "name": "Value#2457443",
+  "date": 20170510,
+  "closeRegion": "TOR",
+  "curveType": "EOD",
+  "at": "2017-05-10T21:00:00.000Z",
+  "asOf": "2017-05-30T19:49:14.029Z",
+  "tradeAt": "2017-05-10T21:00:00.000Z",
+  "tradeAsOf": "2017-05-30T19:49:14.029Z",
+  "mktDataAt": "2017-05-10T21:00:00.000Z",
+  "mktDataAsOf": "2017-05-30T19:49:14.029Z",
+  "pricingEnv": "OFFICIAL_CLOSE_MMB_MS",
+  "engineType": "UQL",
+  "engineVersion": "1.60.2-4",
+  "valuation": {
+    "id": "Aggregate",
+    "metricValues": [
+      {
+        "metric": "VOLATILITY",
+        "results": [
+          {
+            "discriminator": "CAD",
+            "currency": "CAD",
+            "value": 2.0633673482216563
+          },
+          {
+            "discriminator": "USD",
+            "currency": "USD",
+            "value": 0.017647147178649902
+          }
+        ]
+      },
+      {
+        "metric": "POLICY_DELTA",
+        "results": [
+          {
+            "discriminator": "YC-ORSD_EOD_TOR-CAD-CDOR-3M",
+            "currency": "CAD",
+            "bucketsTotal": -454440.5382383193,
+            "buckets": [
+              {
+                "name": "Deposit-3M",
+                "value": 9769.671725991378,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "92",
+                "includeInBasis": false
+              },
+              {
+                "name": "Future-JUN17",
+                "value": -402369.52482662565,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "132",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-SEP17",
+                "value": -72083.12196183787,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "222",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-DEC17",
+                "value": -26652.222415942426,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "313",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-MAR18",
+                "value": -25597.648684996962,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "405",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-JUN18",
+                "value": -14090.624948702698,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "496",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-SEP18",
+                "value": -33709.736549795816,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "586",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-2Y",
+                "value": 144374.55089093852,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "733",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-3Y",
+                "value": -46863.77793103513,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1097",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-4Y",
+                "value": 23978.992422205705,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1461",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-5Y",
+                "value": 6414.015905870974,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1826",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-6Y",
+                "value": -25949.805500052604,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2191",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-7Y",
+                "value": 9920.766242859752,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2560",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-8Y",
+                "value": 12621.470859307185,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2924",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-9Y",
+                "value": -16834.114839976464,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "3288",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-10Y",
+                "value": -12981.713676252062,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "3652",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-12Y",
+                "value": 21353.996426327874,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "4387",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-15Y",
+                "value": -10449.275941171629,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "5479",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-20Y",
+                "value": 7244.927008412859,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "7306",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-25Y",
+                "value": -6836.7502255557865,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "9133",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-30Y",
+                "value": 4728.588798233379,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "10960",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-40Y",
+                "value": -550.7001152528295,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "14614",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-50Y",
+                "value": 121.4990987311487,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "18262",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              }
+            ]
+          },
+          {
+            "discriminator": "YC-ORSD_EOD_TOR-CAD-OIS-1D",
+            "currency": "CAD",
+            "bucketsTotal": -9957.457569796343,
+            "buckets": [
+              {
+                "name": "Deposit-1D",
+                "value": -512.3135253578364,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "1",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-1M",
+                "value": -10591.116116601337,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "33",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-2M",
+                "value": 2872.3954055938457,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "62",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-3M",
+                "value": 8387.15078661952,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "93",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-4M",
+                "value": -347.9599813125865,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "124",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-5M",
+                "value": 64.73756139833779,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "154",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-6M",
+                "value": 75.02334858459278,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "188",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-9M",
+                "value": -55.17689061446311,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "278",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-1Y",
+                "value": 223.4336808348209,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "366",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-15M",
+                "value": -46.22272395188524,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "460",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-18M",
+                "value": 101.75076396617771,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "552",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-2Y",
+                "value": -154.77657600484156,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "730",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-3Y",
+                "value": 510.7159346743666,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1097",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-4Y",
+                "value": -481.9219187989197,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1461",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-5Y",
+                "value": -1098.4280296361078,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1826",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-6Y",
+                "value": -1232.8564888093022,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "2191",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-7Y",
+                "value": -1795.4052980026706,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "2557",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-8Y",
+                "value": -1168.5967446508632,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "2924",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-9Y",
+                "value": 49.61206176361729,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "3288",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-10Y",
+                "value": -568.5247998931164,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "3652",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-12Y",
+                "value": 2797.0028347570938,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "4383",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-15Y",
+                "value": -2507.4953530592393,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "5479",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-20Y",
+                "value": -5219.012243864715,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "7306",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-25Y",
+                "value": 375.11654446256347,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "9133",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-30Y",
+                "value": 381.3407052348063,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "10957",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-40Y",
+                "value": -18.92915402760405,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "14610",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Basket-50Y",
+                "value": 2.9986468994038593,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "18262",
+                "includeInBasis": true,
+                "basisType": "OIS/3s"
+              }
+            ]
+          },
+          {
+            "discriminator": "YC-ORSD_EOD_TOR-USD-LIBOR-3M",
+            "currency": "USD",
+            "bucketsTotal": 12346.613185369384,
+            "buckets": [
+              {
+                "name": "Deposit-3M",
+                "value": -1995.117090312819,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "96",
+                "includeInBasis": false
+              },
+              {
+                "name": "Future-JUN17",
+                "value": -8554.509974974331,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "134",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-SEP17",
+                "value": -15475.858225624732,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "224",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-DEC17",
+                "value": 11734.799131030848,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "314",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-MAR18",
+                "value": 204.53999813579287,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "407",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-JUN18",
+                "value": -62.380534247051514,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "498",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-SEP18",
+                "value": -45.78631305008909,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "588",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-DEC18",
+                "value": -15.824214126191038,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "678",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-MAR19",
+                "value": -61.96535299271562,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "771",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-JUN19",
+                "value": -4.076243297196612,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "862",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-SEP19",
+                "value": -39.07854455717472,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "952",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-DEC19",
+                "value": -43.00728978807817,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1043",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Future-MAR20",
+                "value": -101.53623610943578,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1135",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-4Y",
+                "value": 7935.56656630998,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1463",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-5Y",
+                "value": 15602.655134274188,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "1832",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-6Y",
+                "value": 2088.741600000691,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2196",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-7Y",
+                "value": -899.9800842268796,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2560",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-8Y",
+                "value": 2357.3034051177074,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "2924",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-9Y",
+                "value": -12973.321748685672,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "3289",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-10Y",
+                "value": 3863.8861951595754,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "3654",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-12Y",
+                "value": -340.4290848466044,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "4387",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-15Y",
+                "value": -24.66339389688801,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "5481",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-20Y",
+                "value": -302.04779336223146,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "7307",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-25Y",
+                "value": 294.8035129228374,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "9133",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-30Y",
+                "value": 9351.33303914874,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "10960",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-40Y",
+                "value": -188.2299152519554,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "14614",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              },
+              {
+                "name": "Swap-50Y",
+                "value": 40.796642619068734,
+                "deltaType": "ROOT",
+                "includeInOutright": true,
+                "term": "18268",
+                "includeInBasis": false,
+                "includeInSwapSpreadDelta": true
+              }
+            ]
+          },
+          {
+            "discriminator": "YC-ORSD_EOD_TOR-USD-OIS-1D",
+            "currency": "USD",
+            "bucketsTotal": -344.44240930976866,
+            "buckets": [
+              {
+                "name": "Deposit-1D",
+                "value": 29.24671861071338,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "1",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-1W",
+                "value": -225.03707831217338,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "9",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-1M",
+                "value": -181.61314495000823,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "33",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-2M",
+                "value": 4032.1315103365496,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "63",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-3M",
+                "value": -3667.6881248576974,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "96",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-4M",
+                "value": 60.362357422815464,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "125",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-5M",
+                "value": 9.141804228462156,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "155",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-6M",
+                "value": 32.298530639230925,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "187",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-7M",
+                "value": -54.498548983738026,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "216",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-8M",
+                "value": 5.1923570091548825,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "247",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-9M",
+                "value": -33.2554761469274,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "278",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-10M",
+                "value": 44.949442512263445,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "306",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-11M",
+                "value": -35.62589957326628,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "337",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-1Y",
+                "value": 36.56055752807514,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "369",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-15M",
+                "value": 7.452638789005817,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "460",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-18M",
+                "value": 31.909944278466384,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "552",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "Swap-21M",
+                "value": 20.755977841532513,
+                "deltaType": "OIS",
+                "includeInOutright": true,
+                "term": "643",
+                "includeInBasis": true,
+                "invertForBasis": true,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-2Y",
+                "value": -88.66946674173232,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "733",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-3Y",
+                "value": -163.01262115657664,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1098",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-4Y",
+                "value": -268.29281846949016,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1463",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-5Y",
+                "value": -278.68609709164593,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "1828",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-7Y",
+                "value": -299.6874695048318,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "2560",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-10Y",
+                "value": -75.7208511416975,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "3654",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-12Y",
+                "value": 39.29503175074933,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "4387",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-15Y",
+                "value": 111.34599904259085,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "5481",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-20Y",
+                "value": 179.32028754454223,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "7307",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-25Y",
+                "value": 257.94855782570085,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "9133",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-30Y",
+                "value": 131.92997686041053,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "10960",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              },
+              {
+                "name": "BasisSwap-50Y",
+                "value": -2.4965046002471354,
+                "deltaType": "OIS",
+                "includeInOutright": false,
+                "term": "18264",
+                "includeInBasis": true,
+                "invertForBasis": false,
+                "basisType": "OIS/3s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "metric": "BUCKETED_VEGA",
+        "results": [
+          {
+            "discriminator": "ORSD_EOD_TOR.TOR.CAD.CDOR.DAILY.SWAPTION.NORMAL",
+            "currency": "CAD",
+            "vegaBuckets": [
+              {
+                "strike": 0.01,
+                "expiry": 20170511,
+                "swapTerm": 4.0,
+                "vega": -40.40445058485784,
+                "daysToExpiry": 1,
+                "daysSwapTerm": 1460
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170511,
+                "swapTerm": 4.0,
+                "vega": -86.98079256982601,
+                "daysToExpiry": 1,
+                "daysSwapTerm": 1460
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170511,
+                "swapTerm": 5.0,
+                "vega": 66.35416819336928,
+                "daysToExpiry": 1,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170511,
+                "swapTerm": 5.0,
+                "vega": 233.74735294624222,
+                "daysToExpiry": 1,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170512,
+                "swapTerm": 5.0,
+                "vega": 106.39663616714643,
+                "daysToExpiry": 2,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170512,
+                "swapTerm": 5.0,
+                "vega": 410.3966172493342,
+                "daysToExpiry": 2,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170513,
+                "swapTerm": 1.0,
+                "vega": -0.018017560709267855,
+                "daysToExpiry": 3,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170513,
+                "swapTerm": 1.0,
+                "vega": -0.0020739931205753237,
+                "daysToExpiry": 3,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170513,
+                "swapTerm": 5.0,
+                "vega": 84.84318015190547,
+                "daysToExpiry": 3,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170513,
+                "swapTerm": 5.0,
+                "vega": 279.03729999525603,
+                "daysToExpiry": 3,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170516,
+                "swapTerm": 1.0,
+                "vega": -0.040243577532237396,
+                "daysToExpiry": 6,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170516,
+                "swapTerm": 1.0,
+                "vega": -0.0042054796940647066,
+                "daysToExpiry": 6,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170516,
+                "swapTerm": 5.0,
+                "vega": 169.7759058982956,
+                "daysToExpiry": 6,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170516,
+                "swapTerm": 5.0,
+                "vega": 558.4794356077782,
+                "daysToExpiry": 6,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170519,
+                "swapTerm": 2.0,
+                "vega": -1733.4722186822473,
+                "daysToExpiry": 9,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170519,
+                "swapTerm": 2.0,
+                "vega": -110.61350395683257,
+                "daysToExpiry": 9,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170519,
+                "swapTerm": 5.0,
+                "vega": 401.13138344725485,
+                "daysToExpiry": 9,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170519,
+                "swapTerm": 5.0,
+                "vega": 900.7516499671801,
+                "daysToExpiry": 9,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170524,
+                "swapTerm": 5.0,
+                "vega": 1251.1866453594994,
+                "daysToExpiry": 14,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170524,
+                "swapTerm": 5.0,
+                "vega": 4436.355268664716,
+                "daysToExpiry": 14,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170526,
+                "swapTerm": 4.0,
+                "vega": -897.260100806976,
+                "daysToExpiry": 16,
+                "daysSwapTerm": 1460
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170526,
+                "swapTerm": 4.0,
+                "vega": -2046.2671771365567,
+                "daysToExpiry": 16,
+                "daysSwapTerm": 1460
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170526,
+                "swapTerm": 5.0,
+                "vega": 1163.921574376931,
+                "daysToExpiry": 16,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170526,
+                "swapTerm": 5.0,
+                "vega": 4961.983505801356,
+                "daysToExpiry": 16,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170531,
+                "swapTerm": 5.0,
+                "vega": -837.503493484226,
+                "daysToExpiry": 21,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170531,
+                "swapTerm": 5.0,
+                "vega": -3948.2536966842017,
+                "daysToExpiry": 21,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170601,
+                "swapTerm": 5.0,
+                "vega": -837.503493484226,
+                "daysToExpiry": 22,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170601,
+                "swapTerm": 5.0,
+                "vega": -3948.2536966842017,
+                "daysToExpiry": 22,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170602,
+                "swapTerm": 5.0,
+                "vega": -1322.5896520659444,
+                "daysToExpiry": 23,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170602,
+                "swapTerm": 5.0,
+                "vega": -3239.743583035248,
+                "daysToExpiry": 23,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170603,
+                "swapTerm": 5.0,
+                "vega": 77.74436141725892,
+                "daysToExpiry": 24,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170603,
+                "swapTerm": 5.0,
+                "vega": 1348.219136776068,
+                "daysToExpiry": 24,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170606,
+                "swapTerm": 5.0,
+                "vega": 151.7219169903983,
+                "daysToExpiry": 27,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170606,
+                "swapTerm": 5.0,
+                "vega": 2695.3866020239075,
+                "daysToExpiry": 27,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170607,
+                "swapTerm": 5.0,
+                "vega": -3560.8101176322234,
+                "daysToExpiry": 28,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170607,
+                "swapTerm": 5.0,
+                "vega": -316.52868347040203,
+                "daysToExpiry": 28,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170608,
+                "swapTerm": 5.0,
+                "vega": 875.1781550551532,
+                "daysToExpiry": 29,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170608,
+                "swapTerm": 5.0,
+                "vega": 8439.098352591798,
+                "daysToExpiry": 29,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170609,
+                "swapTerm": 5.0,
+                "vega": -426.54854182264535,
+                "daysToExpiry": 30,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170609,
+                "swapTerm": 5.0,
+                "vega": -2377.0900604321505,
+                "daysToExpiry": 30,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170610,
+                "swapTerm": 5.0,
+                "vega": 674.523182634206,
+                "daysToExpiry": 31,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170610,
+                "swapTerm": 5.0,
+                "vega": 1751.4176902926993,
+                "daysToExpiry": 31,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170610,
+                "swapTerm": 5.0,
+                "vega": -213.51391681015957,
+                "daysToExpiry": 31,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170613,
+                "swapTerm": 5.0,
+                "vega": 1349.0782143118558,
+                "daysToExpiry": 34,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170613,
+                "swapTerm": 5.0,
+                "vega": 3499.616455466312,
+                "daysToExpiry": 34,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170613,
+                "swapTerm": 5.0,
+                "vega": -427.8100093731191,
+                "daysToExpiry": 34,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170615,
+                "swapTerm": 5.0,
+                "vega": -1806.1402119622217,
+                "daysToExpiry": 36,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170615,
+                "swapTerm": 5.0,
+                "vega": -3753.4299642656115,
+                "daysToExpiry": 36,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170616,
+                "swapTerm": 5.0,
+                "vega": -816.0315360353561,
+                "daysToExpiry": 37,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170616,
+                "swapTerm": 5.0,
+                "vega": -4299.928768741345,
+                "daysToExpiry": 37,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170616,
+                "swapTerm": 5.0,
+                "vega": -830.6115019933422,
+                "daysToExpiry": 37,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20170620,
+                "swapTerm": 2.0,
+                "vega": 200.77984429251228,
+                "daysToExpiry": 41,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170620,
+                "swapTerm": 2.0,
+                "vega": 2036.8584841361444,
+                "daysToExpiry": 41,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20170621,
+                "swapTerm": 1.0,
+                "vega": 305.04928016533086,
+                "daysToExpiry": 42,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170621,
+                "swapTerm": 1.0,
+                "vega": 2084.6922668772313,
+                "daysToExpiry": 42,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170621,
+                "swapTerm": 5.0,
+                "vega": -2983.181278618984,
+                "daysToExpiry": 42,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170621,
+                "swapTerm": 5.0,
+                "vega": -937.6365008297144,
+                "daysToExpiry": 42,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170624,
+                "swapTerm": 5.0,
+                "vega": -611.4517459960189,
+                "daysToExpiry": 45,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170624,
+                "swapTerm": 5.0,
+                "vega": -2882.573404397932,
+                "daysToExpiry": 45,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170627,
+                "swapTerm": 5.0,
+                "vega": -1222.9050854850793,
+                "daysToExpiry": 48,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170627,
+                "swapTerm": 5.0,
+                "vega": -5765.1818229553755,
+                "daysToExpiry": 48,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170629,
+                "swapTerm": 2.0,
+                "vega": 3760.6070047236863,
+                "daysToExpiry": 50,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170629,
+                "swapTerm": 2.0,
+                "vega": 1460.7256479672506,
+                "daysToExpiry": 50,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170629,
+                "swapTerm": 5.0,
+                "vega": -1045.6517104229424,
+                "daysToExpiry": 50,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170629,
+                "swapTerm": 5.0,
+                "vega": -6165.7522771914955,
+                "daysToExpiry": 50,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170630,
+                "swapTerm": 5.0,
+                "vega": -574.7494554104633,
+                "daysToExpiry": 51,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170630,
+                "swapTerm": 5.0,
+                "vega": -6610.946111479949,
+                "daysToExpiry": 51,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170707,
+                "swapTerm": 5.0,
+                "vega": -458.3458962775185,
+                "daysToExpiry": 58,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170707,
+                "swapTerm": 5.0,
+                "vega": -7182.561881199479,
+                "daysToExpiry": 58,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170708,
+                "swapTerm": 5.0,
+                "vega": -8879.436536423014,
+                "daysToExpiry": 59,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170708,
+                "swapTerm": 5.0,
+                "vega": -181.15514589467602,
+                "daysToExpiry": 59,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170711,
+                "swapTerm": 5.0,
+                "vega": -17764.65922841032,
+                "daysToExpiry": 62,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170711,
+                "swapTerm": 5.0,
+                "vega": -362.31274087309043,
+                "daysToExpiry": 62,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170712,
+                "swapTerm": 5.0,
+                "vega": 260.016446607362,
+                "daysToExpiry": 63,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170712,
+                "swapTerm": 5.0,
+                "vega": 3740.8850445478456,
+                "daysToExpiry": 63,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170727,
+                "swapTerm": 2.0,
+                "vega": -7872.10670484585,
+                "daysToExpiry": 78,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170727,
+                "swapTerm": 2.0,
+                "vega": -2910.6354660205543,
+                "daysToExpiry": 78,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170802,
+                "swapTerm": 5.0,
+                "vega": -2457.628670406528,
+                "daysToExpiry": 84,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170802,
+                "swapTerm": 5.0,
+                "vega": -6481.428415615461,
+                "daysToExpiry": 84,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170803,
+                "swapTerm": 5.0,
+                "vega": 3532.4140932682785,
+                "daysToExpiry": 85,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170803,
+                "swapTerm": 5.0,
+                "vega": 10056.847075323574,
+                "daysToExpiry": 85,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170809,
+                "swapTerm": 5.0,
+                "vega": 1204.319735821453,
+                "daysToExpiry": 91,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170809,
+                "swapTerm": 5.0,
+                "vega": 8508.00800898805,
+                "daysToExpiry": 91,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20170812,
+                "swapTerm": 3.0,
+                "vega": 1.0257709885481745,
+                "daysToExpiry": 94,
+                "daysSwapTerm": 1095
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20170812,
+                "swapTerm": 3.0,
+                "vega": 0.15761337720323354,
+                "daysToExpiry": 94,
+                "daysSwapTerm": 1095
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20170815,
+                "swapTerm": 3.0,
+                "vega": 2.1239008768461645,
+                "daysToExpiry": 97,
+                "daysSwapTerm": 1095
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20170815,
+                "swapTerm": 3.0,
+                "vega": 0.31695700774434954,
+                "daysToExpiry": 97,
+                "daysSwapTerm": 1095
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170817,
+                "swapTerm": 1.0,
+                "vega": 1756.5329907414562,
+                "daysToExpiry": 99,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170817,
+                "swapTerm": 1.0,
+                "vega": 465.808031604538,
+                "daysToExpiry": 99,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20171110,
+                "swapTerm": 1.0,
+                "vega": 1863.115028816217,
+                "daysToExpiry": 184,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20171110,
+                "swapTerm": 1.0,
+                "vega": 811.4007878396369,
+                "daysToExpiry": 184,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": -124.8698968803219,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": 9297.89631190055,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180210,
+                "swapTerm": 1.0,
+                "vega": 9788.014751159062,
+                "daysToExpiry": 276,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20180510,
+                "swapTerm": 1.0,
+                "vega": 555.5175503138453,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20180510,
+                "swapTerm": 1.0,
+                "vega": -9346.905292381241,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180510,
+                "swapTerm": 1.0,
+                "vega": -5274.170706528443,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.035,
+                "expiry": 20180510,
+                "swapTerm": 2.0,
+                "vega": 216.71591521194205,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20180510,
+                "swapTerm": 2.0,
+                "vega": 378.00919872149825,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20180510,
+                "swapTerm": 5.0,
+                "vega": 271.6360928406939,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20180510,
+                "swapTerm": 5.0,
+                "vega": 14.595834260806441,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180510,
+                "swapTerm": 10.0,
+                "vega": -5899.076760133961,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 3650
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20180510,
+                "swapTerm": 10.0,
+                "vega": -5899.078606653959,
+                "daysToExpiry": 365,
+                "daysSwapTerm": 3650
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20190510,
+                "swapTerm": 1.0,
+                "vega": 345.6055679213023,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20190510,
+                "swapTerm": 1.0,
+                "vega": 299.2723171444377,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20190510,
+                "swapTerm": 1.0,
+                "vega": -41.754231701779645,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20190510,
+                "swapTerm": 2.0,
+                "vega": -32.03355892293621,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20190510,
+                "swapTerm": 2.0,
+                "vega": -21.68986454210244,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.035,
+                "expiry": 20190510,
+                "swapTerm": 2.0,
+                "vega": 307.7373705813661,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20190510,
+                "swapTerm": 2.0,
+                "vega": 537.1637222664431,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20190510,
+                "swapTerm": 5.0,
+                "vega": 1625.030721767107,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.035,
+                "expiry": 20190510,
+                "swapTerm": 5.0,
+                "vega": 2724.912774771452,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20190510,
+                "swapTerm": 5.0,
+                "vega": 576.2195768090896,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20190510,
+                "swapTerm": 5.0,
+                "vega": 30.71829600352794,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20190510,
+                "swapTerm": 10.0,
+                "vega": -14928.032479174668,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 3650
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20190510,
+                "swapTerm": 10.0,
+                "vega": -14928.037154049147,
+                "daysToExpiry": 730,
+                "daysSwapTerm": 3650
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20200512,
+                "swapTerm": 2.0,
+                "vega": -741.0329438166227,
+                "daysToExpiry": 1098,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20200512,
+                "swapTerm": 2.0,
+                "vega": -501.76091565808747,
+                "daysToExpiry": 1098,
+                "daysSwapTerm": 730
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20200512,
+                "swapTerm": 5.0,
+                "vega": 402.63598990929313,
+                "daysToExpiry": 1098,
+                "daysSwapTerm": 1825
+              },
+              {
+                "strike": 0.035,
+                "expiry": 20200512,
+                "swapTerm": 5.0,
+                "vega": 674.2366618961096,
+                "daysToExpiry": 1098,
+                "daysSwapTerm": 1825
+              }
+            ]
+          },
+          {
+            "discriminator": "ORSD_EOD_TOR.TOR.USD.LIBOR.3M.CAPFLOOR.NORMAL",
+            "currency": "USD",
+            "vegaBuckets": [
+              {
+                "strike": 0.01,
+                "expiry": 20170810,
+                "vega": -12179.650796665188,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170810,
+                "vega": -4361.831615636558,
+                "daysToExpiry": 92
+              }
+            ]
+          },
+          {
+            "discriminator": "ORSD_EOD_TOR.TOR.CAD.CDOR.3M.CAPFLOOR.NORMAL",
+            "currency": "CAD",
+            "vegaBuckets": [
+              {
+                "strike": 0.0025,
+                "expiry": 20170810,
+                "vega": -151.86157357468474,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.005,
+                "expiry": 20170810,
+                "vega": 817.2941569960892,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20170810,
+                "vega": 21632.542927230035,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20170810,
+                "vega": 57729.69706965788,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20170810,
+                "vega": -889.7371466367141,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20170810,
+                "vega": 0.24596360139548779,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20170810,
+                "vega": -18.171739649321644,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20170810,
+                "vega": -159.8759352142476,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20170810,
+                "vega": -0.0018712070771265618,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20170810,
+                "vega": 0.000042133118595841235,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20170810,
+                "vega": 0.0003942723253846653,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.055,
+                "expiry": 20170810,
+                "vega": -1.8840998280867227e-7,
+                "daysToExpiry": 92
+              },
+              {
+                "strike": 0.005,
+                "expiry": 20171110,
+                "vega": 2388.63826865995,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20171110,
+                "vega": 48364.534926820175,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20171110,
+                "vega": 3654.294326632273,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20171110,
+                "vega": -1151.7029396583746,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20171110,
+                "vega": 0.9153569731861353,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20171110,
+                "vega": -0.9066643386297013,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20171110,
+                "vega": -14.738745693639096,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20171110,
+                "vega": -0.0032606003132344893,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20171110,
+                "vega": -0.0001830077435904312,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20171110,
+                "vega": 0.0006177565082907677,
+                "daysToExpiry": 184
+              },
+              {
+                "strike": 0.005,
+                "expiry": 20180212,
+                "vega": 1386.580724603707,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.0075,
+                "expiry": 20180212,
+                "vega": 31905.049057518732,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20180212,
+                "vega": -15066.714501173192,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180212,
+                "vega": -1070.713522770754,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20180212,
+                "vega": 2.9588709212839603,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20180212,
+                "vega": 1.8950124664697796,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20180212,
+                "vega": 0.06972014182247221,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20180212,
+                "vega": -0.0022657731580050834,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20180212,
+                "vega": -0.0003146876742375314,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20180212,
+                "vega": 0.0003647231496870518,
+                "daysToExpiry": 278
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20180510,
+                "vega": -2154.369720162009,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20180510,
+                "vega": -1482.0611865673854,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20180510,
+                "vega": 123.33750285580754,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20180510,
+                "vega": 23.85482458304614,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20180510,
+                "vega": 10.5117413981352,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20180510,
+                "vega": -0.0004713313176358813,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20180510,
+                "vega": 7.635178531607973,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20180510,
+                "vega": 1.9270963030867279,
+                "daysToExpiry": 365
+              },
+              {
+                "strike": 0.01,
+                "expiry": 20190211,
+                "vega": -805.8014285819372,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.015,
+                "expiry": 20190211,
+                "vega": -595.581285987515,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20190211,
+                "vega": 1003.6541999648325,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20190211,
+                "vega": -152.0183874622453,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20190211,
+                "vega": 129.6516134426929,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20190211,
+                "vega": 0.000009243376553058624,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20190211,
+                "vega": 294.4812680508476,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20190211,
+                "vega": 76.99511144589633,
+                "daysToExpiry": 642
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20200210,
+                "vega": 2067.655991283711,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20200210,
+                "vega": -767.8715625395998,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20200210,
+                "vega": 304.668343402911,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20200210,
+                "vega": 0.00003343785647302866,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20200210,
+                "vega": 939.4334215691779,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20200210,
+                "vega": 253.6067128656432,
+                "daysToExpiry": 1006
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20210210,
+                "vega": 2698.161122472491,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20210210,
+                "vega": -1428.9641411453485,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20210210,
+                "vega": 417.26218043849804,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20210210,
+                "vega": 0.00004778790753334761,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20210210,
+                "vega": 483.7018082711147,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20210210,
+                "vega": 173.99006107263267,
+                "daysToExpiry": 1372
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20220210,
+                "vega": 3473.846444537863,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20220210,
+                "vega": -5788.569773924537,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20220210,
+                "vega": 788.5190888128709,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20220210,
+                "vega": 0.00008977088145911694,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20220210,
+                "vega": 653.7225664624711,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20220210,
+                "vega": 266.7689010989852,
+                "daysToExpiry": 1737
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20240212,
+                "vega": 445.42829123698175,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20240212,
+                "vega": -14204.4581272793,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20240212,
+                "vega": 1078.6794771798886,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20240212,
+                "vega": -8030.815146170673,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20240212,
+                "vega": 1898.741696987534,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20240212,
+                "vega": 787.3838646421209,
+                "daysToExpiry": 2469
+              },
+              {
+                "strike": 0.02,
+                "expiry": 20270210,
+                "vega": -0.00007393723353743553,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.025,
+                "expiry": 20270210,
+                "vega": -836.9524431934115,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.03,
+                "expiry": 20270210,
+                "vega": 80.06654115207493,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20270210,
+                "vega": -21973.44885427365,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20270210,
+                "vega": 5676.461124820635,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20270210,
+                "vega": 3429.999537668191,
+                "daysToExpiry": 3563
+              },
+              {
+                "strike": 0.04,
+                "expiry": 20370210,
+                "vega": -303.5252319551073,
+                "daysToExpiry": 7216
+              },
+              {
+                "strike": 0.045,
+                "expiry": 20370210,
+                "vega": 4361.597751895431,
+                "daysToExpiry": 7216
+              },
+              {
+                "strike": 0.05,
+                "expiry": 20370210,
+                "vega": 2906.8543180217966,
+                "daysToExpiry": 7216
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "calculationNanos": 251919239006
+  },
+  "complete": true,
+  "success": true,
+  "totalTrades": 2639,
+  "valuedTrades": 2639,
+  "calculationNanos": 251919239006
+}
